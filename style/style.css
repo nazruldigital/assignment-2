@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.flexebel-continer {
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 134px;
+    color: #3A3A3A;
+}
+.half-width {
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.half-width img{
+    padding-left: 133px;
+    width: 75%;
+}
+.main-title{
+    font-size: 52px;
+    width: 582px;
+    height: 133px;
+}
+.pra-title{
+    color: #3A3A3A;
+    font-size: 16px;
+}
+.preebook {
+    display: flex;
+    background: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.preebook-text{
+    padding-right: 15px;
+}
+.brands-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+.logo{
+    padding: 34px;
+    padding-top: 20px;
+}
