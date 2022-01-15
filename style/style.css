@@ -196,10 +196,10 @@ media queries
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .itemes{
+    .itemes {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 83px;
+        padding: 0px;
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -213,8 +213,8 @@ media queries
         font-size: 12px;
     }
     .half-width img {
-        padding-left: 25px;
-        width: 220%;
+        padding-left: 32px;
+        width: 200%;
     }
     .section-title{
         font-size: 24px;
@@ -230,12 +230,14 @@ media queries
         .bonus-flexebel {
             display: flex;
             flex-direction: column;
-            flex-wrap: nowrap;
-            align-items: center;
             padding-top: 50px;
         }
         .bonus-width img {
             width: 200%;
+            padding: 36px;
+        }
+        .bonus-width{
+            text-align: center;
         }
         .footer-inbox {
             text-align: center;
