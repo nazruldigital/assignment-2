@@ -25,6 +25,11 @@ body{
     padding-left: 133px;
     width: 75%;
 }
+.half-width img:hover {
+    width:500px;
+    height: 500px;
+    transition: .5s ease;
+}
 .main-title{
     font-size: 52px;
     width: 582px;
@@ -80,10 +85,22 @@ body{
     margin: 15px;
     border-radius: 10px;
 }
+.item:hover{
+    width:429px;
+    height:576px ;
+    background-color: thistle;
+    transition: 1s ;
+}
 .thumbnail img{
     width: 300px;
     height: 256px;
     align-items: center;
+}
+.thumbnail img:hover{
+    width:400px;
+    height:356px ;
+
+    transition: 1s ;
 }
 .item-title {
     font-weight: 900;
