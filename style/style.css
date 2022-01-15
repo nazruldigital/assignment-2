@@ -117,12 +117,28 @@ height: 36px;
 }
 /*------ bonus -------*/
 
-
+.bonus-flexebel{
+    display: flex;
+    justify-content: center;
+}
+.bonus-width {
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.bonus-width img{
+    width: 75%;
+}
+.contac{
+    color: white;
+    background-color: #E02C6D;
+    border-radius: 30px;
+    padding: 4px;
+}
 
 /* -------footer sectoin ----------*/
-
-.footer-section{
-    background-color: #000;
+.footer-section {
+    background-color: #0A0826;
     color: white;
     height: 270px;
 }
@@ -136,4 +152,7 @@ height: 36px;
 }
 .footer-inbox p{
     font-size: 14px;
+}
+.icon i{
+    padding:5px
 }
