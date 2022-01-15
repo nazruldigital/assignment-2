@@ -14,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} 
 .half-width {
     width: 40%;
     padding-top: 20px;
@@ -136,6 +136,7 @@ height: 36px;
     padding: 4px;
 }
 
+
 /* -------footer sectoin ----------*/
 .footer-section {
     background-color: #0A0826;
@@ -156,5 +157,80 @@ height: 36px;
 .icon i{
     padding:5px
 }
+/* ------------
+media queries
+-------------- */
 
-/* --------media screen -------------*/
+    /* -----------
+    media divices 
+    -------------*/
+
+@media only screen and (max-width:688px) {
+    .heading{
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #3A3A3A;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+    .flexebel-continer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .itemes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 83px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .main-title {
+        font-size: 27px;
+        width: 283px;
+        height: 78px;
+    }
+    .pra-title {
+        color: #3A3A3A;
+        font-size: 12px;
+    }
+    .half-width img {
+        padding-left: 25px;
+        width: 220%;
+    }
+    .section-title{
+        font-size: 24px;
+        margin-top: 3px;
+    }
+        .brands-logo {
+            display: flex;
+            padding: 70px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        .bonus-flexebel {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            padding-top: 50px;
+        }
+        .bonus-width img {
+            width: 200%;
+        }
+        .footer-inbox {
+            text-align: center;
+            padding: 30px;
+        }
+}
+@media only screen and (min-width: 688px) and (max-width:992px){
+    .itemes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 83px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
